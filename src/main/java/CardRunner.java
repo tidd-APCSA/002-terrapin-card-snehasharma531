@@ -3,17 +3,25 @@ public class CardRunner {
         // ☕
        // System.out.println("hey");
 
-     TerrapinCard card = new TerrapinCard(10);
+     TerrapinCard card = new TerrapinCard(5);
+     //png3
      System.out.println(card);
+     card.payGourmet();
+     System.out.println(card);
+     card.payGourmet();
+     System.out.println(card);
+     //png4
      card.loadMoney(15);
      System.out.println(card);
      card.loadMoney(10);
      System.out.println(card);
      card.loadMoney(200);
      System.out.println(card);
+     //png5
      System.out.println("Billy: " + card);
      card.loadMoney(-15);
      System.out.println("Billy: " + card);
+     //png6
      TerrapinCard cardBilly = new TerrapinCard(20);
      TerrapinCard cardBrian = new TerrapinCard(30);
      cardBilly.payGourmet();
