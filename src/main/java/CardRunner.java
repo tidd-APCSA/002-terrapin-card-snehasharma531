@@ -4,6 +4,8 @@ public class CardRunner {
        // System.out.println("hey");
 
      TerrapinCard card = new TerrapinCard(50);
+     //png1
+     System.out.println(card);
      //png2
      System.out.println(card);
      card.payEconomical();
