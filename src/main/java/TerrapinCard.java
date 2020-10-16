@@ -27,6 +27,9 @@ public class TerrapinCard {
       balance = balance;
     }
   }
+  public double getBalance(){
+    return balance;
+  }
   public String toString(){
     return "The card has " + balance + " dollars";
   }
